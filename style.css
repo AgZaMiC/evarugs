@@ -113,6 +113,7 @@ header a:hover {
     background: linear-gradient(to right, rgba(212, 20, 90, 0.5), rgba(46, 49, 146, 0.5));
     padding-top: 100px;
     padding-bottom: 70px;
+    margin-top: 70px;
 }
 
 .comments .box {
