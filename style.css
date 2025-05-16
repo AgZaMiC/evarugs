@@ -1,0 +1,161 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin-inline: auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+header {
+    padding: 20px 0;
+}
+
+header div.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 30px;
+}
+
+header nav {
+    display: flex;
+    gap: 25px;
+}
+
+header a {
+    color: #737373;
+}
+
+header a:hover {
+    color: red;
+}
+
+/* Intro styles */
+.intro .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro h1 {
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.intro a {
+    color: white;
+    background: linear-gradient(to left, #2E3192, #B90160);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+/* Rugs styles */
+.rugs {
+    margin-top: 70px;
+}
+
+.rugs h2 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: xx-large;
+}
+
+.rugs span {
+    background: linear-gradient(to left, #2E3192, #B90160);
+    background-clip: text;
+    color: transparent;
+}
+
+.rugs .box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rugs .card {
+    width: 31%;
+    box-shadow: 0 0 40px #B8005F33;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.rugs img {
+    width: 100%;
+}
+
+.rugs .card div {
+    padding: 20px;
+}
+
+.rugs h3 {
+    font-size: xx-large;
+    margin: 0;
+}
+
+.rugs p {
+    line-height: 1.5;
+    color: #737373;
+}
+
+/* Comments styles */
+.comments {
+    background: linear-gradient(to right, rgba(212, 20, 90, 0.5), rgba(46, 49, 146, 0.5));
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.comments .box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.comments .card {
+    background-color: white;
+    border-radius: 10px;
+    width: 32%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 60px 40px 30px 40px;
+    position: relative;
+}
+
+.comments img {
+    position: absolute;
+    top: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Footer styles */
+footer {
+    padding: 70px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav {
+    display: block;
+}
+
+footer .tel a {
+    color: #737373;
+}
+
+footer p {
+    color: #737373;
+}
