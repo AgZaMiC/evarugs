@@ -160,3 +160,75 @@ footer .tel a {
 footer p {
     color: #737373;
 }
+
+/* Mobile styles */
+@media (max-width: 390px) {
+    header .container {
+        justify-content: center !important;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .intro {
+        background-image: url("./images/intro.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 25px;
+    }
+
+    .intro .container div {
+        width: 100%;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .intro a {
+        margin-top: 25px;
+    }
+
+    .intro img {
+        display: none;
+    }
+
+    .rugs h2 {
+        font-size: 26px;
+    }
+
+    .rugs .box,
+    .comments .box {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .rugs .card,
+    .comments .card {
+        width: 100%;
+    }
+
+    .comments .box {
+        gap: 70px;
+    }
+
+    footer .container {
+        flex-direction: column;
+    }
+
+    footer nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer nav:nth-child(2) {
+        order: -1;
+    }
+}
